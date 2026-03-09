@@ -16,7 +16,7 @@
     {
       "identifier": "10.18112/openneuro.ds003645.v2.0.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "10.1038/sdata.2015.1",
@@ -87,13 +87,14 @@
     ".gz",
     ".json",
     ".m",
+    ".md",
     ".pos",
     ".set",
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises simultaneous MEG and EEG recordings from 18 participants performing a face processing task involving famous, unfamiliar, and scrambled face stimuli across two sessions. Structural MRI scans were acquired in a separate session to support source localization. The dataset has been enhanced with Hierarchical Event Descriptor (HED) annotations to provide detailed event context. The EEG data have been extracted, preprocessed, and repackaged in EEGLAB format with standardized BIDS organization. This is a curated subset of the original multi-modal face processing dataset (ds000117), focusing on the MEEG (MEG, EEG, and structural MRI) components.",
-  "methods_description": "Eighteen participants completed two recording sessions three months apart. During each session, participants performed a perceptual task responding to photographs of famous, unfamiliar, and scrambled faces by pressing keyboard keys to indicate subjective spatial symmetry judgments. MEG and EEG data were simultaneously recorded during one session; structural MRI scans were acquired during a separate session. Each face was presented twice with either immediate or delayed (5-15 presentations) second presentation. EEG preprocessing included channel extraction from MEG/EEG data, fiducial addition, channel renaming, event extraction and correction (34 ms latency shift), HED v8.0.0 annotation, and conversion to EEGLAB .set format.",
+  "description": "This dataset comprises simultaneous MEG and EEG recordings from 18 participants performing a face processing task with perceptual symmetry judgments on famous, unfamiliar, and scrambled faces across two sessions. The data includes structural MRI scans to support source localization and has been comprehensively annotated using Hierarchical Event Descriptors (HED v8.0.0) to enhance FAIR data practices and facilitate reproducible neuroimaging research.",
+  "methods_description": "Eighteen participants completed two recording sessions three months apart. During each session, participants performed a perceptual task responding to photographs of famous, unfamiliar, and scrambled faces by keyboard press to indicate subjective spatial symmetry judgments. MEG and EEG data were simultaneously recorded during one session; structural MRI scans were acquired during a separate session. Each face was presented twice with either immediate or delayed (5-15 presentations) second presentation. EEG preprocessing included channel extraction from MEG/EEG data, fiducial addition, event extraction and correction (34 ms latency shift), button press event integration, and HED (v8.0.0) annotation.",
   "keywords": [
     {
       "term": "EEG"
@@ -102,19 +103,16 @@
       "term": "MEG"
     },
     {
-      "term": "structural MRI"
-    },
-    {
       "term": "face processing"
     },
     {
-      "term": "face stimuli"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "Hierarchical Event Descriptors"
-    },
-    {
-      "term": "event annotation"
     },
     {
       "term": "source localization"
@@ -123,14 +121,8 @@
       "term": "BIDS"
     },
     {
-      "term": "multimodal"
-    },
-    {
       "term": "simultaneous recording"
-    },
-    {
-      "term": "face recognition"
     }
   ],
-  "source_hash": "a5d1be909f1f6dfae82e19888241f3db0476dc43345d91d9303f986a0a391630"
+  "source_hash": "248c8f4de38a740d2c51311ac7b2a8b3cac14b96e4adeb49adbbca89b54f5577"
 }
