@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003645",
+  "source": "openneuro",
+  "source_id": "ds003645",
+  "title": "Face processing MEEG dataset with HED annotation",
+  "authors": {
+    "Daniel G. Wakeman": {},
+    "Richard N Henson": {},
+    "Dung Truong (curation)": {},
+    "Kay Robbins (curation)": {},
+    "Scott Makeig (curation)": {},
+    "Arno Delorme (curation)": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003645.v2.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
