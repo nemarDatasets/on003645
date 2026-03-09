@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003645",
-  "source": "openneuro",
-  "source_id": "ds003645",
+  "pipeline_stage": "enriched",
   "title": "Face processing MEEG dataset with HED annotation",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Daniel G. Wakeman": {},
     "Richard N Henson": {},
@@ -12,14 +12,125 @@
     "Scott Makeig (curation)": {},
     "Arno Delorme (curation)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003645.v2.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/sdata.2015.1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1007/s12021-021-09537-4. Online: https://link.springer.com/article/10.1007/s12021-021-09537-4.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003645",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003645",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s12021-021-09537-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "funding_references": [
+    {
+      "funder_name": "UK Medical Research Council",
+      "award_number": "MC_A060_5PR10"
+    },
+    {
+      "funder_name": "Elekta Ltd."
+    },
+    {
+      "funder_name": "Army Research Laboratory",
+      "award_number": "W911NF-10-2-0022"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 EB023297-03"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 NS047293-l4"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R24 MH120037-01"
+    }
+  ],
+  "modalities": [
+    "anat",
+    "beh",
+    "eeg",
+    "meg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "58.5 GB (823 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".fdt",
+    ".fif",
+    ".gitattributes",
+    ".gz",
+    ".json",
+    ".m",
+    ".pos",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises simultaneous MEG and EEG recordings from 18 participants performing a face processing task involving famous, unfamiliar, and scrambled face stimuli across two sessions. Structural MRI scans were acquired in a separate session to support source localization. The dataset has been enhanced with Hierarchical Event Descriptor (HED) annotations to provide detailed event context. The EEG data have been extracted, preprocessed, and repackaged in EEGLAB format with standardized BIDS organization. This is a curated subset of the original multi-modal face processing dataset (ds000117), focusing on the MEEG (MEG, EEG, and structural MRI) components.",
+  "methods_description": "Eighteen participants completed two recording sessions three months apart. During each session, participants performed a perceptual task responding to photographs of famous, unfamiliar, and scrambled faces by pressing keyboard keys to indicate subjective spatial symmetry judgments. MEG and EEG data were simultaneously recorded during one session; structural MRI scans were acquired during a separate session. Each face was presented twice with either immediate or delayed (5-15 presentations) second presentation. EEG preprocessing included channel extraction from MEG/EEG data, fiducial addition, channel renaming, event extraction and correction (34 ms latency shift), HED v8.0.0 annotation, and conversion to EEGLAB .set format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "face stimuli"
+    },
+    {
+      "term": "Hierarchical Event Descriptors"
+    },
+    {
+      "term": "event annotation"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "simultaneous recording"
+    },
+    {
+      "term": "face recognition"
+    }
+  ],
+  "source_hash": "a5d1be909f1f6dfae82e19888241f3db0476dc43345d91d9303f986a0a391630"
 }
