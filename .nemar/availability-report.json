@@ -1,0 +1,3937 @@
+{
+  "dataset_id": "on003645",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:15.264Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds003645"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 169,
+    "files_declared": 822,
+    "bytes_present": 58489264361,
+    "bytes_declared": 114157580432,
+    "pct_bytes": 0.5123555014013298
+  },
+  "missing": [
+    {
+      "path": "code/dInfo.m",
+      "key": "MD5E-s283162--8373dc673ba16fa5d8796e214197f669.m",
+      "declared_size": 283162,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "code/wh_extracteeg_BIDS_HED.m",
+      "key": "MD5E-s21461--67f83b012dff81e1f41ba84f80c9a820.m",
+      "declared_size": 21461,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/circle.bmp",
+      "key": "MD5E-s21814--38c549e70ad98e8403389ad37a2aa0d2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/cross.bmp",
+      "key": "MD5E-s654872--6abea84fa669cc390cc1e4808c6ab60d.bmp",
+      "declared_size": 654872,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f001.bmp",
+      "key": "MD5E-s21814--2f6d5d71388a3f247f616b22fa336315.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f002.bmp",
+      "key": "MD5E-s21814--dcd57f77099d9008014cad42b0dba8e0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f003.bmp",
+      "key": "MD5E-s21814--ac35d302812b9f541084b6e7b7308655.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f004.bmp",
+      "key": "MD5E-s21814--b8b21ffcabb57eeca99671e4e951ca2e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f005.bmp",
+      "key": "MD5E-s21814--f9090ff78e95cfddd03b59fb01f61352.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f006.bmp",
+      "key": "MD5E-s21814--589aa5203586be67c0e1385d0c6bebfd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f007.bmp",
+      "key": "MD5E-s21814--0c8f768331b28dc9a37f4852d4ba2b6f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f008.bmp",
+      "key": "MD5E-s21814--205bc95825ad44f3a34194860f0bba16.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f009.bmp",
+      "key": "MD5E-s21814--fa027108c917e02a1159a49e7d53c068.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f010.bmp",
+      "key": "MD5E-s21814--34e6c662c0f7e5e118875ffbc6834673.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f011.bmp",
+      "key": "MD5E-s21814--ffd71f1a2b8c5c43e37c08077eddbb4b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f012.bmp",
+      "key": "MD5E-s21814--7b36004a8b4b942d995c4580d03f31ad.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f013.bmp",
+      "key": "MD5E-s21814--1dc66c017d5af0407b22188bfec80580.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f014.bmp",
+      "key": "MD5E-s21814--320c3bd5c71f32125fc2ea42412a8db5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f015.bmp",
+      "key": "MD5E-s21814--36e0408cff2d47482cf136f79fc33e5d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f016.bmp",
+      "key": "MD5E-s21814--c8d1c71e0a940ae09b71eaed0eacd7bd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f017.bmp",
+      "key": "MD5E-s21814--4ff048c9750f4a103fcc0dd635288976.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f018.bmp",
+      "key": "MD5E-s21814--6b00daf470fa7a9c5f5368a9426375c3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f019.bmp",
+      "key": "MD5E-s21814--e2767e81d1972c381616dd01dae94051.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f020.bmp",
+      "key": "MD5E-s21814--22f5d2d950267f48180516cc1daf4d21.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f021.bmp",
+      "key": "MD5E-s21814--e3c184e329763a66adc6c1e2ddc09ca2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f022.bmp",
+      "key": "MD5E-s21814--07bd37072034bfccffbe2c637d192454.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f023.bmp",
+      "key": "MD5E-s21814--344e3e7b24b2b6846fe3a5c0a531d362.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f024.bmp",
+      "key": "MD5E-s21814--a593767b7e5f7e6d0f785f89ee731748.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f025.bmp",
+      "key": "MD5E-s21814--fb64ec48ff9b294b641fb41a63d45fe9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f026.bmp",
+      "key": "MD5E-s21814--b2c7057d29cdf9e9953e6c29482d8479.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f027.bmp",
+      "key": "MD5E-s21814--e4e47d56153a2466b28f4d2f42f10a9b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f028.bmp",
+      "key": "MD5E-s21814--92d978ee95f18165313e4b5ca4c21b60.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f029.bmp",
+      "key": "MD5E-s21814--30491020ca2b267af42c0952c5579b2f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f030.bmp",
+      "key": "MD5E-s21814--d18c407abf181c0962749393e0ad4798.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f031.bmp",
+      "key": "MD5E-s21814--13b1573f341418eb8668dca82d1045b8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f032.bmp",
+      "key": "MD5E-s21814--204116e0748694e31dd60d0daac8a008.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f033.bmp",
+      "key": "MD5E-s21814--e52a43236e6da702af4390cec8edddbb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f034.bmp",
+      "key": "MD5E-s21814--c466bf1541f5651787b845ac53e2ef5e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f035.bmp",
+      "key": "MD5E-s21814--5116918e38dbb623548a7549ee68fe46.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f036.bmp",
+      "key": "MD5E-s21814--1eec65dcf05021cf3b2b654826880ad1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f037.bmp",
+      "key": "MD5E-s21814--14fc888b904a1d75873d9b10e9f31f22.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f038.bmp",
+      "key": "MD5E-s21814--979526da866330dc6816521a5cbdef66.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f039.bmp",
+      "key": "MD5E-s21814--d194c5381c415040a18653e27b18e919.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f040.bmp",
+      "key": "MD5E-s21814--c35b280a0a135f54a75f71fb6fbe98b5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f041.bmp",
+      "key": "MD5E-s21814--4c60a6a8e4ed231372886608bdc39ba8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f042.bmp",
+      "key": "MD5E-s21814--fb80b6d7ae7d74e4bf930e8dda644523.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f043.bmp",
+      "key": "MD5E-s21814--47a30886dae1bcc78a1d8999e966abf5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f044.bmp",
+      "key": "MD5E-s21814--c6a13674f71f0a90f7ce3b1c69ec2aef.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f045.bmp",
+      "key": "MD5E-s21814--df3d612f259fd4b7524d2b8fdbecaf42.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f046.bmp",
+      "key": "MD5E-s21814--502622055d7e036202ff714ec929ad83.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f047.bmp",
+      "key": "MD5E-s21814--730f1491d7bfa6179a009e95bab9b3f7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f048.bmp",
+      "key": "MD5E-s21814--472bbf06de4b7674b4be385e83f2c986.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f049.bmp",
+      "key": "MD5E-s21814--fc52ed5266369b93598300a2321b946f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f050.bmp",
+      "key": "MD5E-s21814--66bc5eedcb7d5ca79931eaa2f6ade8d5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f051.bmp",
+      "key": "MD5E-s21814--dbc0e5913b8c91aea77069881bad7f42.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f052.bmp",
+      "key": "MD5E-s21814--1dee32748fe38b16c4512907f2877744.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f053.bmp",
+      "key": "MD5E-s21814--8e8ca65d2a438ccba88d08e1167ab7a5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f054.bmp",
+      "key": "MD5E-s21814--7ace1dda4ae7dd2737cbcb1f34180c99.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f055.bmp",
+      "key": "MD5E-s21814--fe97f14995f38021996a11a2c82d7f67.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f056.bmp",
+      "key": "MD5E-s21814--225052d6159ffdd2eaf4169187855f12.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f057.bmp",
+      "key": "MD5E-s21814--7d3ce5ca9850cf1fe9c85450caced6ec.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f058.bmp",
+      "key": "MD5E-s21814--e3fa14bde3a765fa2d3d86fa112490ef.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f059.bmp",
+      "key": "MD5E-s21814--17eab31ac72542e7db43f2034a42cd99.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f060.bmp",
+      "key": "MD5E-s21814--492a89af48b47f25dc94410509b55180.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f061.bmp",
+      "key": "MD5E-s21814--d53c67ac0018b1ef2f92331da76b913f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f062.bmp",
+      "key": "MD5E-s21814--57866c6313a83922b0029e0ba715172c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f063.bmp",
+      "key": "MD5E-s21814--a61414646a41601fc5c828cd849e074c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f064.bmp",
+      "key": "MD5E-s21814--37b18b76d9455b77e3dc12eea16b43cd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f065.bmp",
+      "key": "MD5E-s21814--86bb2d24b281f876821ddc8eef949da6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f066.bmp",
+      "key": "MD5E-s21814--5016af9c7db113753dd0d20407b93a7c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f067.bmp",
+      "key": "MD5E-s21814--b503b08a29df25c2c3b48da535fdd9ce.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f068.bmp",
+      "key": "MD5E-s21814--f92d94ae17fd48e300b713173fa5ba2f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f069.bmp",
+      "key": "MD5E-s21814--0ccb833c45377d27e54ecddeda6853c7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f070.bmp",
+      "key": "MD5E-s21814--fab1f0fda29672b1d439f5941b3475cc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f071.bmp",
+      "key": "MD5E-s21814--896c74410161fb9f54f7f75c1766feaa.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f072.bmp",
+      "key": "MD5E-s21814--81574731d52e60f3ef00a2fb6a2014fe.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f073.bmp",
+      "key": "MD5E-s21814--58ea7195026e98ec2c683e772379ac3a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f074.bmp",
+      "key": "MD5E-s21814--d3b857a5dfdfea5729ba4d773ac2eef3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f075.bmp",
+      "key": "MD5E-s21814--3d262de40d2aef59dc6a47a5b6040e0a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f076.bmp",
+      "key": "MD5E-s21814--ca8b1da08bc5c1b7f1289a1e15e42fc2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f077.bmp",
+      "key": "MD5E-s21814--913eaea47470d8b307a56d72f6537468.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f078.bmp",
+      "key": "MD5E-s21814--1aca1aff02aa643b8b0785c54b1cde06.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f079.bmp",
+      "key": "MD5E-s21814--525403952f7a97e1afd72da3317ec128.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f080.bmp",
+      "key": "MD5E-s21814--d6e479a5656036eec7bec87a119062e7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f081.bmp",
+      "key": "MD5E-s21814--c8d2b1ae4a4cf5ba27f0ef032dc5548f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f082.bmp",
+      "key": "MD5E-s21814--ae1ed176dda4f03d611a7e683a685985.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f083.bmp",
+      "key": "MD5E-s21814--c47aaee446633cae23cb28b9a48099b2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f084.bmp",
+      "key": "MD5E-s21814--d2599c265e12befd1adbc10c86b77fec.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f085.bmp",
+      "key": "MD5E-s21814--0a6972b0bf06d9cc35e0fb0eadfeb201.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f086.bmp",
+      "key": "MD5E-s21814--7bc40d8781180bd95e7914a98e745068.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f087.bmp",
+      "key": "MD5E-s21814--bfca08535fb9a04d4324eeb24b54072d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f088.bmp",
+      "key": "MD5E-s21814--db82258dd15596faf893d783642ab0f3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f089.bmp",
+      "key": "MD5E-s21814--591e7090869275a09c8c472fa92a04f8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f090.bmp",
+      "key": "MD5E-s21814--dc12af65b13e27c7dc21ad06885fb214.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f091.bmp",
+      "key": "MD5E-s21814--f13688edc6f78ffa13765b5a6570967f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f092.bmp",
+      "key": "MD5E-s21814--9ae26387b933504acf792d7d8b9de315.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f093.bmp",
+      "key": "MD5E-s21814--9ecf6d013548426a62982ee5c9000b97.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f094.bmp",
+      "key": "MD5E-s21814--f2157ddf795d8d11dcaf1a4b81d907da.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f095.bmp",
+      "key": "MD5E-s21814--4f60273f316eaa4d7b2421920f4cee07.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f096.bmp",
+      "key": "MD5E-s21814--aff53343936a67942e229ca38de763d7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f097.bmp",
+      "key": "MD5E-s21814--7b1eb5161eefdf79c4bd36b3654b5efc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f098.bmp",
+      "key": "MD5E-s21814--eb799c7233b635327eb71ddd76afcb14.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f099.bmp",
+      "key": "MD5E-s21814--60c30f22a9a979af6b2cf46d91360fc3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f100.bmp",
+      "key": "MD5E-s21814--0acf694054dafa317b0f8f9edc4276a4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f101.bmp",
+      "key": "MD5E-s21814--2f4c860bb8352284661f4f45af56a2a8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f102.bmp",
+      "key": "MD5E-s21814--df207db895a6da019637f2cdd45c321f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f103.bmp",
+      "key": "MD5E-s21814--e48c90bf3ebd363d03b309222490895d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f104.bmp",
+      "key": "MD5E-s21814--190254fe0d0755d147d16a24866cd5dc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f105.bmp",
+      "key": "MD5E-s21814--8724e78909190db6f135be57d0ea3214.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f106.bmp",
+      "key": "MD5E-s21814--6c850c709c2dbb56a20fdf19f6b1a32d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f107.bmp",
+      "key": "MD5E-s21814--4916cdf19550fdbdaadd005820dad902.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f108.bmp",
+      "key": "MD5E-s21814--bd264d8d9e395e34ac73cd24a6fd91ac.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f109.bmp",
+      "key": "MD5E-s21814--2b88a3f9aee2c5049b50e0edbaf56323.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f110.bmp",
+      "key": "MD5E-s21814--d286c022d5321c7eb3e53303959b9e94.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f111.bmp",
+      "key": "MD5E-s21814--bf29cfefc5059aa291aa16be650bcd83.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f112.bmp",
+      "key": "MD5E-s21814--6a4ee46f3b1336e2f0ce1513adc33aae.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f113.bmp",
+      "key": "MD5E-s21814--d95432efff7cca3fda398e7c2f0911f4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f114.bmp",
+      "key": "MD5E-s21814--24ad3577aa149f4c35e7cc6aef09c249.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f115.bmp",
+      "key": "MD5E-s21814--8b498aae4c40d85127fc41cc22c2385c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f116.bmp",
+      "key": "MD5E-s21814--ec68ecde62b816ff8830f23b37da8cec.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f117.bmp",
+      "key": "MD5E-s21814--91a8a47d9359fcee5a661c34fa3457c0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f118.bmp",
+      "key": "MD5E-s21814--f3407ba68350604e230de77b5b36b9c4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f119.bmp",
+      "key": "MD5E-s21814--758aa2943e244d1c9bdb9204050f992d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f120.bmp",
+      "key": "MD5E-s21814--aa7d519d925e01686d072fa45aa1c611.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f121.bmp",
+      "key": "MD5E-s21814--7a3b13d39c72569d1185cc71c916c227.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f122.bmp",
+      "key": "MD5E-s21814--5e7522b1e4367e1eb6afd93c3816ddf4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f123.bmp",
+      "key": "MD5E-s21814--df5fc09fb524ddf51bc82007027e405c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f124.bmp",
+      "key": "MD5E-s21814--b74227faca0e7121149db60b310e3c00.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f125.bmp",
+      "key": "MD5E-s21814--d356b6c1601c25067308b8a24569b0d8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f126.bmp",
+      "key": "MD5E-s21814--9c276310da20b5e39fc6979c6818ea68.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f127.bmp",
+      "key": "MD5E-s21814--b45e830f6703b6127677a80dab229197.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f128.bmp",
+      "key": "MD5E-s21814--46c675840bc26a68882e0d5142c37df7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f129.bmp",
+      "key": "MD5E-s21814--5ef5bae2eea4b3069f27be3f28aaed0e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f130.bmp",
+      "key": "MD5E-s21814--00d7c209c8f729526b73368905747601.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f131.bmp",
+      "key": "MD5E-s21814--6700630a57a2ba284b0145322acb910a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f132.bmp",
+      "key": "MD5E-s21814--06efc71d2a3a8f5c1215733ee50b2956.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f133.bmp",
+      "key": "MD5E-s21814--dee2d74f3927c8466c736521e9716467.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f134.bmp",
+      "key": "MD5E-s21814--68d72c418047744d19651d8da3545d97.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f135.bmp",
+      "key": "MD5E-s21814--cd062f6ad08b4a4b281359e3c277660d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f136.bmp",
+      "key": "MD5E-s21814--d34dfdd9d939fbf8c38c4de030d42080.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f137.bmp",
+      "key": "MD5E-s21814--5869f5081c54144701229ec13c8ab5f8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f138.bmp",
+      "key": "MD5E-s21814--3e1a8fe0a19bce021f0684199c25b287.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f139.bmp",
+      "key": "MD5E-s21814--6c84c1deaa3fe475b1f960a8f048a358.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f140.bmp",
+      "key": "MD5E-s21814--1b6a32c88ee5c6c85ac7db803ecc3d02.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f141.bmp",
+      "key": "MD5E-s21814--219039ea244979b06f0f69bfe11c1de1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f142.bmp",
+      "key": "MD5E-s21814--35ccd034b5413679af37245f8f2b9c2c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f143.bmp",
+      "key": "MD5E-s21814--fba91958d00ffcd596c814c171f3307e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f144.bmp",
+      "key": "MD5E-s21814--3229d59f2496a60b753c7675838194f8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f145.bmp",
+      "key": "MD5E-s21814--60aa67b32618029251264c6099dca596.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f146.bmp",
+      "key": "MD5E-s21814--8f2bcfa678dacdf837bee35e0ba28fe7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f147.bmp",
+      "key": "MD5E-s21814--09e8c90d7a1f89c196ed7245891bbe3d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f148.bmp",
+      "key": "MD5E-s21814--3776261df8b356e44065b1cd93b3d467.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f149.bmp",
+      "key": "MD5E-s21814--912823696cbbe550f060981ef2a6d9ae.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/f150.bmp",
+      "key": "MD5E-s21814--713ad0cd7a3348896e36635116bd8b33.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s001.bmp",
+      "key": "MD5E-s21814--1193c46733bd29fc655d1e9ac03507ee.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s002.bmp",
+      "key": "MD5E-s21814--a64c2f418385ea4ba4cb4f462d8f0351.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s003.bmp",
+      "key": "MD5E-s21814--0ea40c012263d47f7deecdafe599d7f7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s004.bmp",
+      "key": "MD5E-s21814--65b97542948459bc35c4cc7b74a4061c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s005.bmp",
+      "key": "MD5E-s21814--f21d531d56855fe6ff53083a097e1e70.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s006.bmp",
+      "key": "MD5E-s21814--3749be97c5b1d5bcfa19814da75aefe5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s007.bmp",
+      "key": "MD5E-s21814--74d366a289ffbd68c8fdab874bfe0313.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s008.bmp",
+      "key": "MD5E-s21814--e281a230b058fc11995b35e93fae37fe.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s009.bmp",
+      "key": "MD5E-s21814--585cf3a6e6e9ddc0bd664b2332f0561b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s010.bmp",
+      "key": "MD5E-s21814--658589dd815cf7c2850e04e8aa116792.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s011.bmp",
+      "key": "MD5E-s21814--015a1723d29871440995cd9195979e2c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s012.bmp",
+      "key": "MD5E-s21814--5a3c843732eb0e2b555d87690859ebe7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s013.bmp",
+      "key": "MD5E-s21814--fdd90b1c8024b74c7fb7ab14f9283b78.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s014.bmp",
+      "key": "MD5E-s21814--01951a7e0551dcb9f236421fd557e81d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s015.bmp",
+      "key": "MD5E-s21814--8c35feb938acabaafce375e2c0b91e69.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s016.bmp",
+      "key": "MD5E-s21814--bd527f80b860c8e1448e4d7e2bc54a1a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s017.bmp",
+      "key": "MD5E-s21814--4e810048ff413b00fc20ac06030bcf27.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s018.bmp",
+      "key": "MD5E-s21814--57a2418755dc5977c8e24cce17fa3ec4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s019.bmp",
+      "key": "MD5E-s21814--a37eaa5a9210d3072e415805ff05ecbd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s020.bmp",
+      "key": "MD5E-s21814--a8d4032d6144601f466b4cf84afede7e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s021.bmp",
+      "key": "MD5E-s21814--77a8fae4e9a353ba3d147d5b5ae6d8fc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s022.bmp",
+      "key": "MD5E-s21814--4aba11195e572be2f74d250a41a06d32.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s023.bmp",
+      "key": "MD5E-s21814--5698439c190606425ae4f524475c753f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s024.bmp",
+      "key": "MD5E-s21814--468005b582f72fd0fd68123ef3ec2a5b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s025.bmp",
+      "key": "MD5E-s21814--101f5f357b04204e9b09333a54c3c7cf.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s026.bmp",
+      "key": "MD5E-s21814--7a9a70d1cffb72a3b37432e79f74b43d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s027.bmp",
+      "key": "MD5E-s21814--12001750a4603952236a1688869565cd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s028.bmp",
+      "key": "MD5E-s21814--f8209510cb8b2e2448d4362dbcee0b7b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s029.bmp",
+      "key": "MD5E-s21814--4385aa1c7df7cd733ca1260a13a67b58.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s030.bmp",
+      "key": "MD5E-s21814--5d344d3a6c1f5bbafd361242a9d17390.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s031.bmp",
+      "key": "MD5E-s21814--76c5efa1603b8b3445629cdd25c32d88.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s032.bmp",
+      "key": "MD5E-s21814--e720e5be59f642e21db68b04e806c196.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s033.bmp",
+      "key": "MD5E-s21814--dccf8e402ddfdad279d47ad959654390.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s034.bmp",
+      "key": "MD5E-s21814--8feafafefc162d8484aec77d385a0453.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s035.bmp",
+      "key": "MD5E-s21814--0acba9e3a36e75b42b1ea1fb2e6b7c1e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s036.bmp",
+      "key": "MD5E-s21814--2d7abc9c27f62cd64b5a3ebca3674489.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s037.bmp",
+      "key": "MD5E-s21814--df3d58367a582b4aec9ed071a6118139.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s038.bmp",
+      "key": "MD5E-s21814--69b83ea898d8a58e260ed22a013f77a7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s039.bmp",
+      "key": "MD5E-s21814--13554169deac56f73cce80e815220dd1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s040.bmp",
+      "key": "MD5E-s21814--5933244129bf750f13571545ead009db.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s041.bmp",
+      "key": "MD5E-s21814--89bde477884c0c13475126296028b428.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s042.bmp",
+      "key": "MD5E-s21814--12b017003ec9aefad60637a98ec49f20.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s043.bmp",
+      "key": "MD5E-s21814--21a9e71b5f9388eae7f22bcafc8c2d49.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s044.bmp",
+      "key": "MD5E-s21814--cb1e62e5f96fe758c135821a88071804.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s045.bmp",
+      "key": "MD5E-s21814--c1fe6698a3048d468fc0722dca9ea6a6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s046.bmp",
+      "key": "MD5E-s21814--e51e18a81e58e6bd81fa32699724098b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s047.bmp",
+      "key": "MD5E-s21814--d51f52135ae894c3069c97ab2f5fe252.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s048.bmp",
+      "key": "MD5E-s21814--d3c62e5d1f904903499fad6d2f4fe9ef.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s049.bmp",
+      "key": "MD5E-s21814--bfb2da87548243905ba2a6cb4342e96f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s050.bmp",
+      "key": "MD5E-s21814--44ae1e54be8c607ff521ca909a0d408a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s051.bmp",
+      "key": "MD5E-s21814--33d4f3e748186739ac06f71ee1a0d9e6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s052.bmp",
+      "key": "MD5E-s21814--886c2b82a5cbda31565b76ffb7592d41.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s053.bmp",
+      "key": "MD5E-s21814--fe5e6e302e81a4ac0c6ba16af0e5c73f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s054.bmp",
+      "key": "MD5E-s21814--0ec5cfac1f6cef932e3473e44b19d6db.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s055.bmp",
+      "key": "MD5E-s21814--775ccf1f752cf61559d856e24c819fde.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s056.bmp",
+      "key": "MD5E-s21814--a1bfc209df617c5e3369a917af5b1d7e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s057.bmp",
+      "key": "MD5E-s21814--f82c1d8677f39eb4f20ffbf45d39fd28.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s058.bmp",
+      "key": "MD5E-s21814--544edae064ced266339a44de4899ded5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s059.bmp",
+      "key": "MD5E-s21814--36579fc9e24d7718021a3ae71c8fecdc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s060.bmp",
+      "key": "MD5E-s21814--1baa4e399da3097db8bc9fdd2a0f6a6d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s061.bmp",
+      "key": "MD5E-s21814--a3a2a6f1392c2b1f12b570ba5840b91a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s062.bmp",
+      "key": "MD5E-s21814--097695b3297f94a12868451fa9c1a413.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s063.bmp",
+      "key": "MD5E-s21814--6ce01f6bfa882d1eaad090579954eef7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s064.bmp",
+      "key": "MD5E-s21814--d1dc1e7660a2fcc105616e14b1ccd2ad.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s065.bmp",
+      "key": "MD5E-s21814--7b7c7e3bf40279afa0cfa2efcbbcb645.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s066.bmp",
+      "key": "MD5E-s21814--cd7089556b2cc326eb89dc4e64262ccc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s067.bmp",
+      "key": "MD5E-s21814--83b232a76c198b90aaa8ae30ef1280a7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s068.bmp",
+      "key": "MD5E-s21814--94d4f16c5fcfb6e7ad46356f90f4e2f9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s069.bmp",
+      "key": "MD5E-s21814--0672998818b954ab383732e7c4c365c0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s070.bmp",
+      "key": "MD5E-s21814--4e801b06e6210d63cedc3e352aa5f191.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s071.bmp",
+      "key": "MD5E-s21814--5da31808c5d090d44db866d0d09152db.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s072.bmp",
+      "key": "MD5E-s21814--ec8eecbc640f0820d80922f0cad323f8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s073.bmp",
+      "key": "MD5E-s21814--21b4a3a2a52decc080455da615b119ea.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s074.bmp",
+      "key": "MD5E-s21814--ecc1c57528ec1f877e705a3435be0549.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s075.bmp",
+      "key": "MD5E-s21814--162337aeaf8b3fe25e04c00fe5ba85b3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s076.bmp",
+      "key": "MD5E-s21814--beb3066cfccd13b9a75417952ff32ed0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s077.bmp",
+      "key": "MD5E-s21814--737d7617f5b9cb698867ac9f67efbc25.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s078.bmp",
+      "key": "MD5E-s21814--2a029c9d4f255a969b1b91dd0b8f7b7d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s079.bmp",
+      "key": "MD5E-s21814--18593b5b4f68ccd7a9f42fcf5c272178.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s080.bmp",
+      "key": "MD5E-s21814--782fb49f75f3a6fce9c606c1eab6bd15.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s081.bmp",
+      "key": "MD5E-s21814--f61fd94b13733d3f8fb4d6410c7e76e2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s082.bmp",
+      "key": "MD5E-s21814--c7ca13bf6baf14d91b10628958f9671c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s083.bmp",
+      "key": "MD5E-s21814--cdfd89b92bad231dc40fa7dced4664cb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s084.bmp",
+      "key": "MD5E-s21814--f5e7a42e8154cc5ca4200d40f552866f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s085.bmp",
+      "key": "MD5E-s21814--1c6c0acce814a594ae5de62d22d246a9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s086.bmp",
+      "key": "MD5E-s21814--8a3141c1427dfb9cff7d409b0cb88b3a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s087.bmp",
+      "key": "MD5E-s21814--64cc610d1f6e87849dd1a5a00e81115c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s088.bmp",
+      "key": "MD5E-s21814--9e5b884d4f03ba20d4bb649e254c547d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s089.bmp",
+      "key": "MD5E-s21814--e1c842a8af7018f69a0cec48379eae8e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s090.bmp",
+      "key": "MD5E-s21814--ff3e8848ff4927aa9bbe58358a9d9278.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s091.bmp",
+      "key": "MD5E-s21814--532a091ab744e7426bf8044329c2fe69.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s092.bmp",
+      "key": "MD5E-s21814--80a1b589a70d04c8c50040970ccef977.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s093.bmp",
+      "key": "MD5E-s21814--a164e81aa6fd3df239d64721ce665aca.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s094.bmp",
+      "key": "MD5E-s21814--a0d1c6ab267de25cc19cfae2687b361f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s095.bmp",
+      "key": "MD5E-s21814--6714980439586f934ccf5b167aee9b29.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s096.bmp",
+      "key": "MD5E-s21814--f4ae8e3508235ccbfbc610fe3e9dce08.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s097.bmp",
+      "key": "MD5E-s21814--75b98b9307ba0f583125775e658783f5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s098.bmp",
+      "key": "MD5E-s21814--f549594baf4219cf982d3a18e7ca0da5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s099.bmp",
+      "key": "MD5E-s21814--a563b452f299fd65f47f89f28712a92c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s100.bmp",
+      "key": "MD5E-s21814--a6bc80c8daaadf155684e931b1729d73.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s101.bmp",
+      "key": "MD5E-s21814--b789ef239824386b7c478de752a2b8e5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s102.bmp",
+      "key": "MD5E-s21814--5c55504061d1a03e5000d63610011fa5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s103.bmp",
+      "key": "MD5E-s21814--ceeef1966b11371f07e298afab675ae1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s104.bmp",
+      "key": "MD5E-s21814--b3a853d136df83ffb506532a49b5b5e9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s105.bmp",
+      "key": "MD5E-s21814--b242f8d0588389852b4c9f9cfde835b3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s106.bmp",
+      "key": "MD5E-s21814--014528eba7fd889a70364ef13f0b919f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s107.bmp",
+      "key": "MD5E-s21814--f6dca6e8e58b0e4e1b92d13c0856fa88.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s108.bmp",
+      "key": "MD5E-s21814--ebfa52de5df6eb875743961c13342fe0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s109.bmp",
+      "key": "MD5E-s21814--ba0227f1b4a3ffd2837f81f4a20f57f1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s110.bmp",
+      "key": "MD5E-s21814--2e90746f69ea1392c0d4705a93f4e29a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s111.bmp",
+      "key": "MD5E-s21814--c3638e3197e5a1701d3399bfd1fd5598.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s112.bmp",
+      "key": "MD5E-s21814--ce41be3763e0a93c07bdb931275deddd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s113.bmp",
+      "key": "MD5E-s21814--191eba70193129b9276dd5812554174c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s114.bmp",
+      "key": "MD5E-s21814--cea3a70c3d6b70c2b67f7cb7cc7cb427.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s115.bmp",
+      "key": "MD5E-s21814--63d4f01005b5d2f03ba4e865c94377bd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s116.bmp",
+      "key": "MD5E-s21814--b6e71a4c6d1479a4ac9237add288dae4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s117.bmp",
+      "key": "MD5E-s21814--d7cd260b124a32684fcb5d8f52d9c69f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s118.bmp",
+      "key": "MD5E-s21814--a2d866187cb1f967b20b7559cf3ea4e3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s119.bmp",
+      "key": "MD5E-s21814--4cd28b79ea56409b7986b95b842b5fe4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s120.bmp",
+      "key": "MD5E-s21814--531f56524f922f734bf1fa43110997d8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s121.bmp",
+      "key": "MD5E-s21814--677f877db2bc748f9e07302bf6cc8c59.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s122.bmp",
+      "key": "MD5E-s21814--9782f790db2325ef4257989a09c85612.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s123.bmp",
+      "key": "MD5E-s21814--88e67705d66cadab6c2c93586ccca18a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s124.bmp",
+      "key": "MD5E-s21814--9d1314cb1567322be86f7a954f66a839.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s125.bmp",
+      "key": "MD5E-s21814--79bf68c2e2e79a1ea7df17af564981d2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s126.bmp",
+      "key": "MD5E-s21814--1c3df709ddf098d28dc4d9912f35a94e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s127.bmp",
+      "key": "MD5E-s21814--2c1ef64cfc66bb7877b6680d62771ff9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s128.bmp",
+      "key": "MD5E-s21814--2f5f8cc8fa96ded7b6bfe2f3ceb73baa.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s129.bmp",
+      "key": "MD5E-s21814--e2bc122286357f5d1485cff5bd80b031.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s130.bmp",
+      "key": "MD5E-s21814--41ef70f9a1aca9fff8fb6d7d75adf54c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s131.bmp",
+      "key": "MD5E-s21814--a81d5fe8ead8b0ef69e0382419ebd93b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s132.bmp",
+      "key": "MD5E-s21814--ebd07ec1d926fb88d70df9ea29698be8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s133.bmp",
+      "key": "MD5E-s21814--5040e70aaa745fd9357d9858e3c41f12.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s134.bmp",
+      "key": "MD5E-s21814--b22969f548c0c709501488c20723f3a7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s135.bmp",
+      "key": "MD5E-s21814--fcdabb3b7c3abe285b7a66c2cee23f5b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s136.bmp",
+      "key": "MD5E-s21814--5e565830afcced847fc9f944398c3d47.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s137.bmp",
+      "key": "MD5E-s21814--10e443f2eae671e55660204d5f42c875.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s138.bmp",
+      "key": "MD5E-s21814--9293f586f27ec09f9e11367a9fb2b97e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s139.bmp",
+      "key": "MD5E-s21814--f7602f305f3f05f0643fc9fef0cdf45a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s140.bmp",
+      "key": "MD5E-s21814--31c963a8159b63b919a594f2e4c50691.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s141.bmp",
+      "key": "MD5E-s21814--1b28704be62688295d8fb186acf8554c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s142.bmp",
+      "key": "MD5E-s21814--563cefcaa1ac6a2a46d9219031e32c65.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s143.bmp",
+      "key": "MD5E-s21814--0d924d9a315ef2de58a9148fd8de6031.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s144.bmp",
+      "key": "MD5E-s21814--ca00ab7ccba631c0af60508c43875ec4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s145.bmp",
+      "key": "MD5E-s21814--3eaf8d62a59427bfef17b94bc18634eb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s146.bmp",
+      "key": "MD5E-s21814--09757c551fc6305efbf60677b015a08d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s147.bmp",
+      "key": "MD5E-s21814--122d8ea330e30dc3f6bcb1972b9cf1f5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s148.bmp",
+      "key": "MD5E-s21814--d59b834942c71c97122af6384977eae4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s149.bmp",
+      "key": "MD5E-s21814--31dcd9f30db16a4011351aca332e5bb0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/s150.bmp",
+      "key": "MD5E-s21814--ee5e1000654b089ae0d39a7ea1ca4dcb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u001.bmp",
+      "key": "MD5E-s21814--79be2614c4d7a42303df06de0222e198.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u002.bmp",
+      "key": "MD5E-s21814--64a72f7737316413bbf811bfa77182ad.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u003.bmp",
+      "key": "MD5E-s21814--2fc54a8331cb48b334f5afdc6972d2de.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u004.bmp",
+      "key": "MD5E-s21814--b5d4399cfb4678438a116050d7d3e6ae.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u005.bmp",
+      "key": "MD5E-s21814--676412222418c5e9e02d9e91d2c8b4a2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u006.bmp",
+      "key": "MD5E-s21814--49a1f86c15d0ddec9b05ffe2e2ea01a9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u007.bmp",
+      "key": "MD5E-s21814--611b36492f05b827c4b71e9dbb71ff3b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u008.bmp",
+      "key": "MD5E-s21814--3d52e2574448395f91d4ed9c6f3caa5e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u009.bmp",
+      "key": "MD5E-s21814--40bac66ab45c17bb763ae1ad52430bfe.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u010.bmp",
+      "key": "MD5E-s21814--d52d375dfc5653c657d74c149fdf40fe.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u011.bmp",
+      "key": "MD5E-s21814--0a6a6fff125fbb7775290aca017b33dc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u012.bmp",
+      "key": "MD5E-s21814--bf55cd95fbfc97e34ba79dd1bc6425fd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u013.bmp",
+      "key": "MD5E-s21814--39f877a9efe51dba4b9604ac0082cc42.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u014.bmp",
+      "key": "MD5E-s21814--bcaa9a2a3639834ef633608b67cc1da6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u015.bmp",
+      "key": "MD5E-s21814--edf7816c2591cf482870ec57af2b3847.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u016.bmp",
+      "key": "MD5E-s21814--232d92ab7d5c2eccf77f76b2cb12f131.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u017.bmp",
+      "key": "MD5E-s21814--4c0b5b24e79fbb79bf693965b17fdf32.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u018.bmp",
+      "key": "MD5E-s21814--04f23202a3cd3c81678588d51777e379.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u019.bmp",
+      "key": "MD5E-s21814--443eb071ba3dbc5fa2949cdcc03e0cca.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u020.bmp",
+      "key": "MD5E-s21814--7c29ff7851f6b8652e1caca050ae84ad.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u021.bmp",
+      "key": "MD5E-s21814--48d824928a6476a766542dc8fed68326.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u022.bmp",
+      "key": "MD5E-s21814--91cfe4ff9bf4a24ba4a421488ef86a41.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u023.bmp",
+      "key": "MD5E-s21814--d80dc03995081d6f866d774b38e4a394.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u024.bmp",
+      "key": "MD5E-s21814--75ce325f34761d86744b7c056798070f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u025.bmp",
+      "key": "MD5E-s21814--47bf100c3bffb48079badf10094dc310.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u026.bmp",
+      "key": "MD5E-s21814--e38e268fcf6ba4ed08ab4f70906abb69.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u027.bmp",
+      "key": "MD5E-s21814--93458c05aed56320053600b926aec0c9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u028.bmp",
+      "key": "MD5E-s21814--315550669d435b467fafd605e110a51c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u029.bmp",
+      "key": "MD5E-s21814--c90012909adc33e146810606359a7a6e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u030.bmp",
+      "key": "MD5E-s21814--893e5ff37b3ac96951cfdf3d8fc3d281.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u031.bmp",
+      "key": "MD5E-s21814--00943e4ab207c26f1c5dd13cd4747df9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u032.bmp",
+      "key": "MD5E-s21814--eb6e096f8b5b88cda65d4bf34128e2dd.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u033.bmp",
+      "key": "MD5E-s21814--f32e65a99a2debb73aede2de763d8bcc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u034.bmp",
+      "key": "MD5E-s21814--18630ff417aee13f25b673db38ebf8d4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u035.bmp",
+      "key": "MD5E-s21814--a6a022a5a3de879487ef3aa70f62efac.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u036.bmp",
+      "key": "MD5E-s21814--28a8db17992a5b888bc5036c9b4d038b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u037.bmp",
+      "key": "MD5E-s21814--e9e536d3d6295bf34e246c0370da76c6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u038.bmp",
+      "key": "MD5E-s21814--9b28496027e3978addc91ed9e685aaf7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u039.bmp",
+      "key": "MD5E-s21814--5b512d7c852fae293de9a60ae799e996.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u040.bmp",
+      "key": "MD5E-s21814--7c4c96fc0835c47e2981ef27f343bc95.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u041.bmp",
+      "key": "MD5E-s21814--d57eb8b768f66981280271a16227a80a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u042.bmp",
+      "key": "MD5E-s21814--8bfc68d1e82718f57c41d45233e02206.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u043.bmp",
+      "key": "MD5E-s21814--8ca8d5ace14aa729f2fdac3b2de616bf.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u044.bmp",
+      "key": "MD5E-s21814--49e23b7a19910ce5fcabd4d28dca2a49.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u045.bmp",
+      "key": "MD5E-s21814--774a08d76a6997f7e505f8c7623b56aa.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u046.bmp",
+      "key": "MD5E-s21814--cc154b78828f5f76be25052f5e5874ab.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u047.bmp",
+      "key": "MD5E-s21814--0017b6117fafc5243f31697f6a10ae0e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u048.bmp",
+      "key": "MD5E-s21814--fbe9025f4e73c0f17058915760303262.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u049.bmp",
+      "key": "MD5E-s21814--85994bebb6a679986dbcd1c3a86b00c3.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u050.bmp",
+      "key": "MD5E-s21814--adb621068b2499d9cc88b910ee77cc6a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u051.bmp",
+      "key": "MD5E-s21814--3d74f3e528b74abbd4b40ae5004b118b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u052.bmp",
+      "key": "MD5E-s21814--9925e0de8970816a70b525c8493ff715.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u053.bmp",
+      "key": "MD5E-s21814--6ae9b936fafd3fe53cf61eb3487c2f49.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u054.bmp",
+      "key": "MD5E-s21814--5d5c98dad19daf55d46b739782a3d439.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u055.bmp",
+      "key": "MD5E-s21814--6f63052e31ab5094caa2bfb2c594f62d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u056.bmp",
+      "key": "MD5E-s21814--2d7f39e4569baf01afa8cb127245b6c0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u057.bmp",
+      "key": "MD5E-s21814--4a257bfdd4dd5db446d08adb82932e2d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u058.bmp",
+      "key": "MD5E-s21814--372b65c516e10cd1a4807e99203eb728.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u059.bmp",
+      "key": "MD5E-s21814--68f013a00e4eb8fb63702d005af07ccb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u060.bmp",
+      "key": "MD5E-s21814--45ce75051865a93a9504557c6a1487c4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u061.bmp",
+      "key": "MD5E-s21814--243ea6ffcc92d5cb030c8f589a70b52a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u062.bmp",
+      "key": "MD5E-s21814--6161218ab5068c4d13e2fcb1db011c17.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u063.bmp",
+      "key": "MD5E-s21814--06795f1376b60678cae23b0569d3653b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u064.bmp",
+      "key": "MD5E-s21814--8a45be6e777134e9d217b479192b86f4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u065.bmp",
+      "key": "MD5E-s21814--35ce4b7ccf9734f6f26eeed4d698b460.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u066.bmp",
+      "key": "MD5E-s21814--c3233df75a8f9b72147254b2b353d941.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u067.bmp",
+      "key": "MD5E-s21814--ec68362fe14ca5b9364dffb712160dfc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u068.bmp",
+      "key": "MD5E-s21814--f78011c64823cc81fdf97838a2b5844d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u069.bmp",
+      "key": "MD5E-s21814--31337f6ddab45381a3252c7e7dcfd54f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u070.bmp",
+      "key": "MD5E-s21814--b5ccfcf8a3659e5e20f5540e2e84d0ed.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u071.bmp",
+      "key": "MD5E-s21814--583eb57ee4b11e851b6ada24c7ac735f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u072.bmp",
+      "key": "MD5E-s21814--25eee46f94158ceb192617de513b4356.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u073.bmp",
+      "key": "MD5E-s21814--97a178600c3a97f5f04464b7139ad932.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u074.bmp",
+      "key": "MD5E-s21814--a9dd1604e15a2239483486c4d12821bc.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u075.bmp",
+      "key": "MD5E-s21814--6050c232c812dc9d9b0ef80a0c8cf9a4.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u076.bmp",
+      "key": "MD5E-s21814--b65d3d2f935c01baa25accaf5e4006a2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u077.bmp",
+      "key": "MD5E-s21814--bdc36fcd2040ebd9174d6b31096bd838.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u078.bmp",
+      "key": "MD5E-s21814--3d036d1b24791d98796c460ee6f677f5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u079.bmp",
+      "key": "MD5E-s21814--a86bf2193ddc4469f0868684c7b1a1e5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u080.bmp",
+      "key": "MD5E-s21814--83f6deeeeab61e21ac027d6bf7ba2e30.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u081.bmp",
+      "key": "MD5E-s21814--c988b68f9336662cd24dba79395cab2e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u082.bmp",
+      "key": "MD5E-s21814--f3da36973dab0626d73cd0d0e62f5ca2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u083.bmp",
+      "key": "MD5E-s21814--4851e5ea4938ebf4acd8aae23d3cd78c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u084.bmp",
+      "key": "MD5E-s21814--2c9659b29619080c81ceacea96d0fe2f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u085.bmp",
+      "key": "MD5E-s21814--879cf2cdfd512292b7650d6066e06ba1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u086.bmp",
+      "key": "MD5E-s21814--331b18b852e3506abec50b656477afe9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u087.bmp",
+      "key": "MD5E-s21814--12363aa4ab546437a23e5f15f78c895e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u088.bmp",
+      "key": "MD5E-s21814--ee7adfc9f405904d3a87e9f47721490b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u089.bmp",
+      "key": "MD5E-s21814--533e017502a49d9d1afc7b9f48b5abaa.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u090.bmp",
+      "key": "MD5E-s21814--0329de772cc163cc951d913293679de8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u091.bmp",
+      "key": "MD5E-s21814--e55eb0b5542e068f7be57278ecb05eb6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u092.bmp",
+      "key": "MD5E-s21814--e1178fad920f549a54f2621a89babdfb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u093.bmp",
+      "key": "MD5E-s21814--c61d7bd090248f0a3f7e34b93a7e1797.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u094.bmp",
+      "key": "MD5E-s21814--7c7b312d3857463ce131a2e78032b4c6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u095.bmp",
+      "key": "MD5E-s21814--c438089b036e52c3ffea5cf362724b23.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u096.bmp",
+      "key": "MD5E-s21814--ad78f9ac8375424bb08c0ef03bddbddb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u097.bmp",
+      "key": "MD5E-s21814--51d222a03b2dd67b5aa5934cd0ad1109.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u098.bmp",
+      "key": "MD5E-s21814--7d5fc91f458f05ae15ebd218cafc164b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u099.bmp",
+      "key": "MD5E-s21814--251dbf10d0bf234c3edf59a4880dd5db.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u100.bmp",
+      "key": "MD5E-s21814--645dcfafbdfc3fbaf30ca759ff7766d2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u101.bmp",
+      "key": "MD5E-s21814--c70acce4dcfbf8adcfb654cc7da11da8.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u102.bmp",
+      "key": "MD5E-s21814--b5339826da90cdad3bd90697088ea757.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u103.bmp",
+      "key": "MD5E-s21814--570f65724e8bc74195eb090f866beb8e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u104.bmp",
+      "key": "MD5E-s21814--c1baa91356c69875827f490adb0bec63.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u105.bmp",
+      "key": "MD5E-s21814--9a61f60823f56799d6b33412147c86d1.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u106.bmp",
+      "key": "MD5E-s21814--03bab0d3685851579de61dac78ccf09a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u107.bmp",
+      "key": "MD5E-s21814--bd9e07b178e0c02806adb67adbfaf87d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u108.bmp",
+      "key": "MD5E-s21814--cc8f9cc24ad7835626d90dd22852075a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u109.bmp",
+      "key": "MD5E-s21814--68aa7096e7cee959b5ddd6009ad0e7d6.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u110.bmp",
+      "key": "MD5E-s21814--bc2b3f5ff868c78110bbbe0b0923f33a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u111.bmp",
+      "key": "MD5E-s21814--1a32ad254160ddf8fc2c53fb29e939b5.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u112.bmp",
+      "key": "MD5E-s21814--6e758165a673827eb0e7106d7eaf4200.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u113.bmp",
+      "key": "MD5E-s21814--063164169036e97560826fc0ce2240b9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u114.bmp",
+      "key": "MD5E-s21814--23cfccd82c717690bd40312baf1e1363.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u115.bmp",
+      "key": "MD5E-s21814--3c89d3697da0603f1f22bd70607f358e.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u116.bmp",
+      "key": "MD5E-s21814--651e5f8e0f7cff5961f09e4e922068f9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u117.bmp",
+      "key": "MD5E-s21814--3b99a8c275c4ddd6e3b6815f1a86ca66.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u118.bmp",
+      "key": "MD5E-s21814--19d6b44f17f01a5941c382a7e338d13f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u119.bmp",
+      "key": "MD5E-s21814--2aa7b65b65c4cff44aebcd5b11db1f10.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u120.bmp",
+      "key": "MD5E-s21814--41f64e6349a00dc509cb87de99e346ca.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u121.bmp",
+      "key": "MD5E-s21814--3085de22d2001dbd7e65a4c4a64d2ddb.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u122.bmp",
+      "key": "MD5E-s21814--ffaef62ea70757ff0ca302aa1bfd8018.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u123.bmp",
+      "key": "MD5E-s21814--9144135f6e4be1f4e5121887037e3f0d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u124.bmp",
+      "key": "MD5E-s21814--38a24c07b46f7a24c21b65ebe5fd81e0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u125.bmp",
+      "key": "MD5E-s21814--1ddeb540205da3131907b02b05ef765f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u126.bmp",
+      "key": "MD5E-s21814--1decd1269236683e6efc8401730f586a.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u127.bmp",
+      "key": "MD5E-s21814--a2ba4f20c3174d266aa6dfa0b6d1d779.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u128.bmp",
+      "key": "MD5E-s21814--f0763c67ecb5196354144af4d518bc60.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u129.bmp",
+      "key": "MD5E-s21814--17c665cb1a1a6064b79e7d7e2ac1ea46.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u130.bmp",
+      "key": "MD5E-s21814--d79faf6473899c30f0f540ae3d06abc0.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u131.bmp",
+      "key": "MD5E-s21814--56b0f1d28c9e0db252a08819b1206ca9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u132.bmp",
+      "key": "MD5E-s21814--3d9f6737ba17db5adbe6e2dbea85ac2d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u133.bmp",
+      "key": "MD5E-s21814--3907616cdc894da47b9d7278d984aa3b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u134.bmp",
+      "key": "MD5E-s21814--04cd576731a16fd1aa45372917d7c84b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u135.bmp",
+      "key": "MD5E-s21814--ea548f762cb55871096be814b304a21f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u136.bmp",
+      "key": "MD5E-s21814--d9381b9afda620f87fb809076d2e6258.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u137.bmp",
+      "key": "MD5E-s21814--86c9541a9d542433ab5d169f3b00c9c9.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u138.bmp",
+      "key": "MD5E-s21814--6e0eebe1f4fffb94f79049fca44d8341.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u139.bmp",
+      "key": "MD5E-s21814--f1b380993d33fbdef703bc0dc0d6cc8d.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u140.bmp",
+      "key": "MD5E-s21814--42ae0c298a91b9bf9e31f9f63c3b907f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u141.bmp",
+      "key": "MD5E-s21814--b5cd0ddf37a94ee2d8c17fa4f956bf3b.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u142.bmp",
+      "key": "MD5E-s21814--4161144c5537c5c5c83236f2c4d26772.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u143.bmp",
+      "key": "MD5E-s21814--0418b2e37cc99152b8d8817174bdedac.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u144.bmp",
+      "key": "MD5E-s21814--0d564584cb76b14bab2bb7364849b874.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u145.bmp",
+      "key": "MD5E-s21814--3b9bc33d0b0214c5abacccaa48c269d7.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u146.bmp",
+      "key": "MD5E-s21814--97fc58fc1ba332ce262996990713a68c.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u147.bmp",
+      "key": "MD5E-s21814--80fd2cfe56db903144bf66ea980b5122.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u148.bmp",
+      "key": "MD5E-s21814--bf74a7b1b9328c223eaf8c611d9abef2.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u149.bmp",
+      "key": "MD5E-s21814--a34f952a82266989be662e336e2a5c55.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "stimuli/u150.bmp",
+      "key": "MD5E-s21814--0501a1064d6099240a3df0a14955350f.bmp",
+      "declared_size": 21814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/anat/sub-002_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s27663808--1270516f59e84095e64f1baf584a1077.nii.gz",
+      "declared_size": 27663808,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s162030000--12a710e27727a68861d027cea1d2a6e3.fdt",
+      "declared_size": 162030000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s164010000--8cb5419c48a77f2c9cc8bdb601db1967.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5079960--b065e3d8d0835fd4e766ac95481e05dc.set",
+      "declared_size": 5079960,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s166650000--bde514a5e3bf226eff854e65e232239e.fdt",
+      "declared_size": 166650000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5169024--3b261357c293bde09c712ec22252e709.set",
+      "declared_size": 5169024,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s162690000--fc712d8f67b0ce0701a3ebd5d26f7a11.fdt",
+      "declared_size": 162690000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5061896--6aeb062247c19a456ac72954891c69cb.set",
+      "declared_size": 5061896,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s166650000--cad1610c2e7614d2f810f45c02710dda.fdt",
+      "declared_size": 166650000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/eeg/sub-002_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s165000000--2677afdce63d34ceaeb5dc6478e0dbdf.fdt",
+      "declared_size": 165000000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/meg/sub-002_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s860240688--6f39798536d6f2354e4984542416260a.fif",
+      "declared_size": 860240688,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/meg/sub-002_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s863716250--aa5b05565aa1dea844bbd3d9d94b2556.fif",
+      "declared_size": 863716250,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/meg/sub-002_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s884572922--281ce96fb24cf83b187f844482d10f60.fif",
+      "declared_size": 884572922,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-002/meg/sub-002_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s875883434--09dbeccae645cfafd278b65c1394f2e7.fif",
+      "declared_size": 875883434,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/anat/sub-003_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s25275458--cbdf26bd1ad32d6d1fe82d8021a6933e.nii.gz",
+      "declared_size": 25275458,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s162690000--1e5d2739b2156c598a6058ffa2125be8.fdt",
+      "declared_size": 162690000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5123456--f118e372ddeddc01e51b6bd660eaa2d4.set",
+      "declared_size": 5123456,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s162360000--9436ee5a6ada0c0f831239e1d5941465.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s165990000--97c54c158a193a150c89d4fa1b4375dc.fdt",
+      "declared_size": 165990000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s163020000--9243e693f38043a8e10c8d07237aeb72.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/eeg/sub-003_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5095960--8b91a0a69e24d6423ad9ee29345c31d2.set",
+      "declared_size": 5095960,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/meg/sub-003_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s858503294--13c52445f9da6b1b602dc32fca2446d0.fif",
+      "declared_size": 858503294,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-003/sub-003_headshape.pos",
+      "key": "MD5E-s4495--830469a1ac9a73a06cf5f198d8a9a85a.pos",
+      "declared_size": 4495,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/anat/sub-004_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s24674807--5c467a73d9928c1450a041b249999880.nii.gz",
+      "declared_size": 24674807,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s166980000--aedc7e217d8dd53dfb52399d1ca294ed.fdt",
+      "declared_size": 166980000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5237984--36c7cd8ee138181d0fbb01c4cfd3a595.set",
+      "declared_size": 5237984,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5115104--c3bab20a7ece6a1246f7923adbc2e90e.set",
+      "declared_size": 5115104,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s166320000--78dfa9f669544df006e826247087b26d.fdt",
+      "declared_size": 166320000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5188920--90b06c4f71d649a6b8449ae5a89e2a6f.set",
+      "declared_size": 5188920,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s164010000--7595211a3afe74f660c4709aa74b6cf2.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s163020000--6e7a53fc6257c7b30e7e68b910e9ed5a.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/eeg/sub-004_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s165330000--513faaf977e974b095d0a3d5503ca4e5.fdt",
+      "declared_size": 165330000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-004/meg/sub-004_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s865455093--9869391d05ea4c3cdd25463730fa22d4.fif",
+      "declared_size": 865455093,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/anat/sub-005_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s25312377--e4a0c82debd4d97a7b19ea0616f7bf58.nii.gz",
+      "declared_size": 25312377,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5093536--9e5fabb87c6602242e3a0f11d8f6adc2.set",
+      "declared_size": 5093536,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5088272--451be5641e039ae0da8bfce801fdac45.set",
+      "declared_size": 5088272,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5197240--f19d21b59221ae34f652de6f59076b22.set",
+      "declared_size": 5197240,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s163020000--a889d6a11cece0925865849ece1a8492.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s163350000--a74fde74f233959904f2bca05a0a3dab.fdt",
+      "declared_size": 163350000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-5_eeg.set",
+      "key": "MD5E-s5141184--a16495dea6452aef61560fc88cb2767a.set",
+      "declared_size": 5141184,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/eeg/sub-005_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s164670000--57b48d913619a9f54e1d2574739337fa.fdt",
+      "declared_size": 164670000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/meg/sub-005_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s868930976--0168e743e50df5dcba45afaa09845993.fif",
+      "declared_size": 868930976,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/meg/sub-005_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s858503089--223f03f3c6857e5bbb0b28c560b8238a.fif",
+      "declared_size": 858503089,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/meg/sub-005_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s867193352--0a2fa68a93b593272703b05a531a87fb.fif",
+      "declared_size": 867193352,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-005/meg/sub-005_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s874145312--d8bff2e5835ed87182ae411c42bed2af.fif",
+      "declared_size": 874145312,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/anat/sub-006_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s24939890--c66eff9748487f4f37b32a7bd738fbb2.nii.gz",
+      "declared_size": 24939890,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s166320000--e00f351fe00d984e20a81fcffbc3c03a.fdt",
+      "declared_size": 166320000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5158640--e5927f61c52bee148dcf3f3b444e3c74.set",
+      "declared_size": 5158640,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s160710000--97fcd6a1bf53264cf5ae9e1047b9bf85.fdt",
+      "declared_size": 160710000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5066176--56519f726b1b1e3d8a7ee023bb6a5194.set",
+      "declared_size": 5066176,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s161040000--d6f56e4248d14635ca227061dbc8666e.fdt",
+      "declared_size": 161040000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/eeg/sub-006_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5079440--6221e3a2eaf18a0321a9f353f62a3820.set",
+      "declared_size": 5079440,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/meg/sub-006_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s860242268--ec8723f3e1b71d339bf280d5e6724b5d.fif",
+      "declared_size": 860242268,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-006/meg/sub-006_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s882835769--71fc3fa0db18460475b37603a905040a.fif",
+      "declared_size": 882835769,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/anat/sub-007_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s26413422--e489ae40e4242cb4a3bc65516e30ca22.nii.gz",
+      "declared_size": 26413422,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5083760--28b3b2c3078f5b278f809a135354ad43.set",
+      "declared_size": 5083760,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s160710000--a8fac64c8e303b9795a28e9ee65aad64.fdt",
+      "declared_size": 160710000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5067272--36d6998da4835531aee198f71c7a6f5c.set",
+      "declared_size": 5067272,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-FacePerception_run-5_eeg.set",
+      "key": "MD5E-s5127904--cf6108ed7876f9b37a6608c6938a1532.set",
+      "declared_size": 5127904,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/eeg/sub-007_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5127904--b26f5cd233618ba26e3b1b54e3dd6595.set",
+      "declared_size": 5127904,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/meg/sub-007_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s863717277--7ef693ee79fabcac12bc2b660e614d20.fif",
+      "declared_size": 863717277,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-007/sub-007_headshape.pos",
+      "key": "MD5E-s4357--2c16d0b5fa5758c061f415ef863baba8.pos",
+      "declared_size": 4357,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/anat/sub-008_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s23977389--e342e217e2d77bfba8853e89a83f2911.nii.gz",
+      "declared_size": 23977389,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5127920--c988229d93a89a20aec0024a88d07da1.set",
+      "declared_size": 5127920,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s162360000--74876470c70c63f23fa11c51973f9d60.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s160380000--3c38291ac3b555b3145bd4246621c376.fdt",
+      "declared_size": 160380000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s161700000--cda63c4e4caa6f9d65f7672d9ecd82a6.fdt",
+      "declared_size": 161700000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s163020000--b6764519517b6baeaf88eac7353d381e.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/eeg/sub-008_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5132224--fb39acda63cb675579c88320cd795d41.set",
+      "declared_size": 5132224,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/meg/sub-008_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s875884531--04ae369de1b97a4aa91b6e326063bf0c.fif",
+      "declared_size": 875884531,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/meg/sub-008_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s851552013--af537a6fec2a3265f65aeffaabb55215.fif",
+      "declared_size": 851552013,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/meg/sub-008_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s858504067--4964af477f3167bee43773664cd0bc17.fif",
+      "declared_size": 858504067,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-008/sub-008_headshape.pos",
+      "key": "MD5E-s5079--b5ce530c36df0ed04d9031b9825591a6.pos",
+      "declared_size": 5079,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/anat/sub-009_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s23807813--2d6328e9ceec974d08ae77d2f04e7a6c.nii.gz",
+      "declared_size": 23807813,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s165000000--5f412f992e6eb8ed882b6b0d99a79342.fdt",
+      "declared_size": 165000000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s162690000--7015b33c861718425575966716ee9214.fdt",
+      "declared_size": 162690000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5127904--b2719c34b0e3e72414e64278f9d34fcf.set",
+      "declared_size": 5127904,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5168664--44260ab83236625ff6bc87f929bc8881.set",
+      "declared_size": 5168664,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s163680000--781cb7f1d7e925cef1adabad8ac70295.fdt",
+      "declared_size": 163680000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s162030000--8139086d6c801edea266acbeb991f46d.fdt",
+      "declared_size": 162030000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/eeg/sub-009_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5105840--40b60de5ad279408a45a9d36d17a9da4.set",
+      "declared_size": 5105840,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/meg/sub-009_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s875885984--46f1c9e70cdefaa0ed5b40e1535da230.fif",
+      "declared_size": 875885984,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/meg/sub-009_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s863718669--653a848ed0e6f2a925d330630605dc17.fif",
+      "declared_size": 863718669,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/meg/sub-009_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s870670836--4005af0712e06c93db6e52e2127676e6.fif",
+      "declared_size": 870670836,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/meg/sub-009_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s868932804--6e75e7097b28e1f518a3338e28b9f597.fif",
+      "declared_size": 868932804,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/meg/sub-009_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s860242588--2bda848f47b5af8be07bfe1efc114e9c.fif",
+      "declared_size": 860242588,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-009/sub-009_headshape.pos",
+      "key": "MD5E-s5308--83a8ed185285c31b86e798cf7cdf5ab3.pos",
+      "declared_size": 5308,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/anat/sub-010_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s24135969--53957c3403432b29c05f08732316d976.nii.gz",
+      "declared_size": 24135969,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s162030000--4088b8e33dd97de0b6609d0bf0a0315e.fdt",
+      "declared_size": 162030000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5145520--15f5618cb2dea92d0630a8ef149259ad.set",
+      "declared_size": 5145520,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s163350000--e8c80dc90b97aa3a329ee147dd6a7eeb.fdt",
+      "declared_size": 163350000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s162360000--ca895bd424ae7255b8d27c46c17596d0.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/eeg/sub-010_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5114656--8d0b8ab70435c18cfa0c7c738ab9655b.set",
+      "declared_size": 5114656,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/meg/sub-010_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s860242732--949548c7f221d854e1cc756085e34d7f.fif",
+      "declared_size": 860242732,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/meg/sub-010_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s867194076--a38afff4ec1c8ef705e6bb3cf372073a.fif",
+      "declared_size": 867194076,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/meg/sub-010_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s867194130--5a6737ba415626e9bb0138f43986b49d.fif",
+      "declared_size": 867194130,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/meg/sub-010_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s860241916--54742f31a948952ced4bd907359fa0fe.fif",
+      "declared_size": 860241916,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-010/sub-010_headshape.pos",
+      "key": "MD5E-s4869--1c115b8226faf5013693ee6e240466c1.pos",
+      "declared_size": 4869,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/anat/sub-011_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s26639871--fae99578b4547228a23772cd4b518a7f.nii.gz",
+      "declared_size": 26639871,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5154176--8224147119e45b4434622b61931e5a0d.set",
+      "declared_size": 5154176,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5074976--49b021ec7a3691e24122bfa22454d7a8.set",
+      "declared_size": 5074976,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s164010000--5d68230ad4f67bd272da387512130a60.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5167584--bf9d89d72b5a3292eba9d034504c61a3.set",
+      "declared_size": 5167584,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s163020000--5f748836e6fb1332ee966a82e3bb2dc0.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s164670000--ef89222462340d32e6834454e7ce67ff.fdt",
+      "declared_size": 164670000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s164010000--17e63aaea2177d7014c359b206fec274.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/eeg/sub-011_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5158656--1682de646f07d6ee72958e0f3547639f.set",
+      "declared_size": 5158656,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/meg/sub-011_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s870669236--42c8d4f241c562654a4b0fd8e1ca5a55.fif",
+      "declared_size": 870669236,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/meg/sub-011_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s865455296--5619624aac880377b80de7e15f669931.fif",
+      "declared_size": 865455296,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/meg/sub-011_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s870669620--c793bd1c18ea5fda2e55fe7a82055748.fif",
+      "declared_size": 870669620,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-011/sub-011_headshape.pos",
+      "key": "MD5E-s4316--0ca79b52b9b1c9ea931f9531c1bcf32a.pos",
+      "declared_size": 4316,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/anat/sub-012_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s24320547--7db2487ff67269783095fafcb88a14d6.nii.gz",
+      "declared_size": 24320547,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s165000000--7fa1e7e459b294b6eb9283f35da2f77e.fdt",
+      "declared_size": 165000000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5190584--b7113ceb8741711432d9ab4faa1c58c9.set",
+      "declared_size": 5190584,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s162030000--a417aa01407182101d99bda7d8cb94e4.fdt",
+      "declared_size": 162030000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5111384--932b7ce6caf4c2adfcb67f153937db50.set",
+      "declared_size": 5111384,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s163350000--636449faf43225a1a6c7528cab0a4507.fdt",
+      "declared_size": 163350000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5150000--0bcb3471bfe69b56201455b5a9f58f0e.set",
+      "declared_size": 5150000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s163350000--f3f15c571c3a7754d9dd05de168a76a0.fdt",
+      "declared_size": 163350000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/eeg/sub-012_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s169290000--eb2f50c9d4451aaec7352e3bbd576947.fdt",
+      "declared_size": 169290000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/meg/sub-012_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s875885616--13e2045621b8cff473203b37d43729a8.fif",
+      "declared_size": 875885616,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/meg/sub-012_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s867194012--85b9e913f99e793eb757f89d165d06c0.fif",
+      "declared_size": 867194012,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-012/sub-012_headshape.pos",
+      "key": "MD5E-s4805--9ce2c4c18991642e29e71187aec83a09.pos",
+      "declared_size": 4805,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/anat/sub-013_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s22824309--497fdbb2dca9e7feaba595df0373eac5.nii.gz",
+      "declared_size": 22824309,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s161700000--269e3c574abb8e74f46fcd1989e6e319.fdt",
+      "declared_size": 161700000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5097040--519d6dd85524c825280a146a0ede6a80.set",
+      "declared_size": 5097040,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s163680000--21b7214e8db2cbc179b581d1216bd794.fdt",
+      "declared_size": 163680000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5145504--e2dc0c55bfdd020a24ff1fb68b2b2f8a.set",
+      "declared_size": 5145504,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s161370000--381fc0bf863e8769ea96af9c3b3cc024.fdt",
+      "declared_size": 161370000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/eeg/sub-013_task-FacePerception_run-5_eeg.set",
+      "key": "MD5E-s5083792--ab8016fb3d6cd5881e6596582527c415.set",
+      "declared_size": 5083792,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/meg/sub-013_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s868931328--b16894e078a7ee4447e1f9b8d3cc4d1e.fif",
+      "declared_size": 868931328,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/meg/sub-013_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s867193308--55b8cc7eb874b28d339b8e188e777af8.fif",
+      "declared_size": 867193308,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-013/sub-013_headshape.pos",
+      "key": "MD5E-s4309--0f4d9742209199a0b05b951424870b3c.pos",
+      "declared_size": 4309,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/anat/sub-014_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s24097291--042cfebf346b587a4483f15774460041.nii.gz",
+      "declared_size": 24097291,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s162360000--ca25c49a5efcabf58e6cdd39b08078c3.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s163350000--2a77c61c645fe9fdf5cdcb2cf9c3491d.fdt",
+      "declared_size": 163350000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5149984--2857f293052a61716786023a93cd54cc.set",
+      "declared_size": 5149984,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5189504--0e5ab893e44b4e43d6fd3996869a07e6.set",
+      "declared_size": 5189504,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/eeg/sub-014_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s162360000--1d0c76c256bbd445d3eec86e195732c3.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/meg/sub-014_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s861980472--0d6a595b98c50e8f74cff27aaac4a741.fif",
+      "declared_size": 861980472,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/meg/sub-014_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s867193664--668ea3b19473906eb8efc53eb731b2f6.fif",
+      "declared_size": 867193664,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/meg/sub-014_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s870669588--3ca79479235ce20bc3c9ece9c59eace8.fif",
+      "declared_size": 870669588,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-014/sub-014_headshape.pos",
+      "key": "MD5E-s4537--ff1affdbbaf1e86113ceb51b09d8553f.pos",
+      "declared_size": 4537,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/anat/sub-015_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s23551774--44246c67021812bb10c8466a44fccf4b.nii.gz",
+      "declared_size": 23551774,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s161700000--2dea926e3c6524763edf36ce161c8921.fdt",
+      "declared_size": 161700000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5093800--31ff10442db74e00396c08132314eeec.set",
+      "declared_size": 5093800,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s163020000--711925c365fb5018875a97f51ff73721.fdt",
+      "declared_size": 163020000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s161700000--daa315326e6a47e08dc41898843d8bdd.fdt",
+      "declared_size": 161700000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5093800--589475be8681573c6aba21d0c70126f6.set",
+      "declared_size": 5093800,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5089304--218dc2478244830972e24f018b55c891.set",
+      "declared_size": 5089304,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s161040000--b02fe7d1a56fa895d71904c4aeddbb7b.fdt",
+      "declared_size": 161040000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s167970000--49a7479a44b6331f7a020b5bd6216433.fdt",
+      "declared_size": 167970000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/eeg/sub-015_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5261000--465a00e7bcb749a20bda02a01ddb4c4f.set",
+      "declared_size": 5261000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/meg/sub-015_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s856765814--49c7330f4282f1b0ba5b4819a74e1350.fif",
+      "declared_size": 856765814,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-015/meg/sub-015_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s891526384--0b0a6cc194494daace29c11f00159539.fif",
+      "declared_size": 891526384,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/anat/sub-016_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s25775636--9fd774d14f0ef379cd9dac7c45fa4453.nii.gz",
+      "declared_size": 25775636,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s162690000--d5c8b4ca386d4ca4c9ed1a73a9792663.fdt",
+      "declared_size": 162690000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s161370000--c40288d76d7000f8637a745456693895.fdt",
+      "declared_size": 161370000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-4_eeg.set",
+      "key": "MD5E-s5136720--81032987e66b35b38595c75c910a2b8c.set",
+      "declared_size": 5136720,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s162360000--e7526de951605f6eaf30eaf4b7365849.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-5_eeg.set",
+      "key": "MD5E-s5116928--ce6eaad4f1308a6923443ac903176173.set",
+      "declared_size": 5116928,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s162030000--0940ca2214300d3b8767a28b169d99a5.fdt",
+      "declared_size": 162030000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/eeg/sub-016_task-FacePerception_run-6_eeg.set",
+      "key": "MD5E-s5109224--14d8c5faedf6e3f008e37f01b7fb6807.set",
+      "declared_size": 5109224,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/meg/sub-016_task-FacePerception_run-3_meg.fif",
+      "key": "MD5E-s856765996--a49780ba9763521a3cfaa066ba830b24.fif",
+      "declared_size": 856765996,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-016/meg/sub-016_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s861980104--e5532920ee5f9a07be6afedc650d2c01.fif",
+      "declared_size": 861980104,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/anat/sub-017_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s23007829--ab62b97794525b4fd13efc8758e57828.nii.gz",
+      "declared_size": 23007829,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-1_eeg.fdt",
+      "key": "MD5E-s162360000--1559a92218e385a7e9f8259d32697e8d.fdt",
+      "declared_size": 162360000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s165000000--7b11e687749ae2086f4e702d382de458.fdt",
+      "declared_size": 165000000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5189536--8033c2ef4fd34a638214c0d9e2347099.set",
+      "declared_size": 5189536,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s171270000--2ce9afc5f5c6bd8cb21fb0bbe79a916a.fdt",
+      "declared_size": 171270000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-3_eeg.set",
+      "key": "MD5E-s5357784--6928752028dbe569bbb9f0816c179011.set",
+      "declared_size": 5357784,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s164340000--a20757c78776b08f61a13131e84dba45.fdt",
+      "declared_size": 164340000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/eeg/sub-017_task-FacePerception_run-6_eeg.fdt",
+      "key": "MD5E-s164010000--ae79e24c424e06d2123d37bdd5871598.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/meg/sub-017_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s861980100--1ad274919dce8c0e29db760f420eb3ac.fif",
+      "declared_size": 861980100,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/meg/sub-017_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s875883322--d2a3b5ac1cb37827985b26c2c10a8c81.fif",
+      "declared_size": 875883322,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/meg/sub-017_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s858502962--cc47faf6c89c478991a8c2ff150569f2.fif",
+      "declared_size": 858502962,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/meg/sub-017_task-FacePerception_run-6_meg.fif",
+      "key": "MD5E-s870669166--9b39f43f7f2de9379d3c7a78156002a6.fif",
+      "declared_size": 870669166,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-017/sub-017_headshape.pos",
+      "key": "MD5E-s4237--6dfe02bccbd5be465406d925ecdc2701.pos",
+      "declared_size": 4237,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/anat/sub-018_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s23993413--3a48546a604bc0374b0db2b5141c8372.nii.gz",
+      "declared_size": 23993413,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-FacePerception_run-2_eeg.fdt",
+      "key": "MD5E-s161370000--9ad21b033504fa9001d24e42d1c92263.fdt",
+      "declared_size": 161370000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5087112--89a2185012a8039ed8ce871cefd84af0.set",
+      "declared_size": 5087112,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-FacePerception_run-5_eeg.fdt",
+      "key": "MD5E-s161370000--2f98cd3d6d1bc42d2436be9abd095f7b.fdt",
+      "declared_size": 161370000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/eeg/sub-018_task-FacePerception_run-5_eeg.set",
+      "key": "MD5E-s5082696--79e4afacde143749b5ffab3268b2c99b.set",
+      "declared_size": 5082696,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/meg/sub-018_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s860240864--c7fa9fd0b279961172fcd6cbc30da9ee.fif",
+      "declared_size": 860240864,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/meg/sub-018_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s856764834--a0f56d6e32698895add2b09ee06c06a2.fif",
+      "declared_size": 856764834,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/meg/sub-018_task-FacePerception_run-4_meg.fif",
+      "key": "MD5E-s870669162--bda31127c74a98187edb5cb1d88c5779.fif",
+      "declared_size": 870669162,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-018/meg/sub-018_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s856764758--e0692dc3f484562ad879462cf408f98c.fif",
+      "declared_size": 856764758,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/anat/sub-019_mod-T1w_defacemask.nii.gz",
+      "key": "MD5E-s27421357--d86b80a06c687a5e5f88303465beb96b.nii.gz",
+      "declared_size": 27421357,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-FacePerception_run-1_eeg.set",
+      "key": "MD5E-s5121280--02a54c956379446eee9a2e937560acec.set",
+      "declared_size": 5121280,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-FacePerception_run-2_eeg.set",
+      "key": "MD5E-s5182880--59a670241c290fea1d820948319cdb64.set",
+      "declared_size": 5182880,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-FacePerception_run-3_eeg.fdt",
+      "key": "MD5E-s164340000--491bce9a4078bcde49d3c1474a9eb795.fdt",
+      "declared_size": 164340000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/eeg/sub-019_task-FacePerception_run-4_eeg.fdt",
+      "key": "MD5E-s164010000--df33327700bdaf35b8d9b51ed7f90424.fdt",
+      "declared_size": 164010000,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/meg/sub-019_task-FacePerception_run-1_meg.fif",
+      "key": "MD5E-s863717096--22e741e2b124d9527bcc1e28d849b2bc.fif",
+      "declared_size": 863717096,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/meg/sub-019_task-FacePerception_run-2_meg.fif",
+      "key": "MD5E-s875883310--183c80588ca2a9035a9c59b6f6fd25dc.fif",
+      "declared_size": 875883310,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/meg/sub-019_task-FacePerception_run-5_meg.fif",
+      "key": "MD5E-s863717098--f95039d3281a0a48b016b8de0e4ad047.fif",
+      "declared_size": 863717098,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-019/sub-019_headshape.pos",
+      "key": "MD5E-s4317--9c94ab9a8c2877fe9dd9b1c39a3afead.pos",
+      "declared_size": 4317,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-emptyroom/ses-20090518/meg/sub-emptyroom_ses-20090518_task-noise_meg.fif",
+      "key": "MD5E-s241903319--3212b9c65ac11e68cfbe58f619c765b8.fif",
+      "declared_size": 241903319,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-emptyroom/ses-20091126/meg/sub-emptyroom_ses-20091126_task-noise_meg.fif",
+      "key": "MD5E-s423827410--3e7d1ac35b2174864ff46609dc369345.fif",
+      "declared_size": 423827410,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-emptyroom/ses-20091208/meg/sub-emptyroom_ses-20091208_task-noise_meg.fif",
+      "key": "MD5E-s154180690--ee32f25963413ce3cef774011a22475d.fif",
+      "declared_size": 154180690,
+      "reason": "zero_byte"
+    }
+  ]
+}
