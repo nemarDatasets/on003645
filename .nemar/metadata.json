@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003645",
-  "source": "openneuro",
-  "source_id": "ds003645",
+  "pipeline_stage": "validated",
   "title": "Face processing MEEG dataset with HED annotation",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Daniel G. Wakeman": {},
     "Richard N Henson": {},
@@ -12,35 +12,118 @@
     "Scott Makeig (curation)": {},
     "Arno Delorme (curation)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003645.v2.0.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/sdata.2015.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s12021-021-09537-4. Online: https://link.springer.com/article/10.1007/s12021-021-09537-4.",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003645",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003645",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s12021-021-09537-4",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "anat",
-    "beh",
-    "eeg",
-    "meg"
-  ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "eeg",
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "Experiment was supported by the UK Medical Research Council (MC_A060_5PR10) and Elekta Ltd."
+      "funder_name": "UK Medical Research Council",
+      "award_number": "MC_A060_5PR10"
     },
     {
-      "funder_name": "Curation was supported by: Army Research Laboratory W911NF-10-2-0022, NIH R01 EB023297-03, NIH R01 NS047293-l4, and NIH R24 MH120037-01."
+      "funder_name": "Elekta Ltd."
+    },
+    {
+      "funder_name": "Army Research Laboratory",
+      "award_number": "W911NF-10-2-0022"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 EB023297-03"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 NS047293-l4"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R24 MH120037-01"
     }
-  ]
+  ],
+  "modalities": [
+    "anat",
+    "beh",
+    "eeg",
+    "meg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "106 GB (823 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".fdt",
+    ".fif",
+    ".gitattributes",
+    ".gz",
+    ".json",
+    ".m",
+    ".md",
+    ".pos",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "A multi-modal face processing dataset combining simultaneously recorded MEG and EEG with structural MRI from 18 participants. Participants viewed famous, unfamiliar, and scrambled faces and made a symmetry judgment by button press. The data are a curated repackaging of the MEEG portion of ds000117, with reorganized event logs, Hierarchical Event Descriptor (HED) annotations, and EEGLAB-format EEG.",
+  "methods_description": "Eighteen participants took part in two sessions three months apart, one with fMRI and one with simultaneous MEG and EEG. In each, they viewed photographs of famous, unfamiliar, and scrambled faces and pressed one of two keys to give a yes/no judgment of facial symmetry. Each face was shown twice, with the repeat either immediate or delayed by 5-15 presentations. Preprocessing extracted EEG channels from the MEG/EEG fif files, added fiducials, renamed EOG/EKG channels, extracted events and button presses, removed spurious event types, corrected a 34 ms latency shift, added HED annotations, and saved the result in EEGLAB .set format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "Hierarchical Event Descriptors"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "248c8f4de38a740d2c51311ac7b2a8b3cac14b96e4adeb49adbbca89b54f5577"
 }
