@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Face processing MEEG dataset with HED annotation",
+  "description": "This dataset is the MEEG (structural MRI, MEG and simultaneous EEG) portion of the multi-subject, multi-modal face processing dataset originally released as ds000117. Eighteen participants viewed photographs of famous, unfamiliar and scrambled faces and made symmetry judgments with key presses. Events were augmented and reorganized and annotated with Hierarchical Event Descriptors (HED), and the EEG data were converted to BioSemi Data Format (BDF).",
+  "methods_description": "Eighteen participants completed two sessions three months apart, one with fMRI and one with simultaneous MEG and EEG. In the MEEG session they responded to famous, unfamiliar and scrambled faces by pressing one of two keys to judge facial symmetry. Each face was presented twice, with the repeat either immediate or delayed by 5-15 presentations. EEG channels were extracted from the MEG/EEG fif files, fiducials were added, events were extracted and corrected for a 34 ms latency shift, and HED annotations were added. The recordings were then converted from EEGLAB format to BDF. MEG data remain in Elekta Neuromag fif format, and structural MRI was retained to support source localization.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,14 +12,39 @@
     "Dung Truong (curation)": {},
     "Kay Robbins (curation)": {},
     "Scott Makeig (curation)": {},
-    "Arno Delorme (curation)": {}
+    "Arno Delorme (curation)": {},
+    "Seyed Yahya Shirazi (curation)": {
+      "orcid": "0000-0001-5557-259X"
+    }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003645.v2.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
+      "term": "EEG"
     },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "Hierarchical Event Descriptors"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1038/sdata.2015.1",
       "identifier_type": "DOI",
@@ -42,6 +69,11 @@
       "identifier": "10.1007/s12021-021-09537-4",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003645.v2.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -69,61 +101,28 @@
       "award_number": "R24 MH120037-01"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
     "eeg",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "106 GB (823 files)"
+    "208 GB (1537 files)"
   ],
   "formats": [
+    ".bdf",
     ".bmp",
-    ".fdt",
     ".fif",
-    ".gitattributes",
     ".gz",
     ".json",
+    ".jsonl",
     ".m",
     ".md",
     ".pos",
-    ".set",
     ".tsv",
     ".yml"
   ],
-  "description": "A multi-modal face processing dataset combining simultaneously recorded MEG and EEG with structural MRI from 18 participants. Participants viewed famous, unfamiliar, and scrambled faces and made a symmetry judgment by button press. The data are a curated repackaging of the MEEG portion of ds000117, with reorganized event logs, Hierarchical Event Descriptor (HED) annotations, and EEGLAB-format EEG.",
-  "methods_description": "Eighteen participants took part in two sessions three months apart, one with fMRI and one with simultaneous MEG and EEG. In each, they viewed photographs of famous, unfamiliar, and scrambled faces and pressed one of two keys to give a yes/no judgment of facial symmetry. Each face was shown twice, with the repeat either immediate or delayed by 5-15 presentations. Preprocessing extracted EEG channels from the MEG/EEG fif files, added fiducials, renamed EOG/EKG channels, extracted events and button presses, removed spurious event types, corrected a 34 ms latency shift, added HED annotations, and saved the result in EEGLAB .set format.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "face processing"
-    },
-    {
-      "term": "Hierarchical Event Descriptors"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
-  ],
-  "source_hash": "248c8f4de38a740d2c51311ac7b2a8b3cac14b96e4adeb49adbbca89b54f5577"
+  "source_hash": "831f232e234c0aa85bd984831d37c7e42bcef025f5901c01e1c9fc2d89b50a52"
 }
