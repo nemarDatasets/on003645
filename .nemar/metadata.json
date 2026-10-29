@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Face processing MEEG dataset with HED annotation",
-  "description": "This dataset is the MEEG (structural MRI, MEG and simultaneous EEG) portion of the multi-subject, multi-modal face processing dataset originally released as ds000117. Eighteen participants viewed photographs of famous, unfamiliar and scrambled faces and made symmetry judgments with key presses. Events were augmented and reorganized and annotated with Hierarchical Event Descriptors (HED), and the EEG data were converted to BioSemi Data Format (BDF).",
-  "methods_description": "Eighteen participants completed two sessions three months apart, one with fMRI and one with simultaneous MEG and EEG. In the MEEG session they responded to famous, unfamiliar and scrambled faces by pressing one of two keys to judge facial symmetry. Each face was presented twice, with the repeat either immediate or delayed by 5-15 presentations. EEG channels were extracted from the MEG/EEG fif files, fiducials were added, events were extracted and corrected for a 34 ms latency shift, and HED annotations were added. The recordings were then converted from EEGLAB format to BDF. MEG data remain in Elekta Neuromag fif format, and structural MRI was retained to support source localization.",
+  "description": "This dataset contains the simultaneous MEG and EEG recordings, together with structural MRI, from the multi-subject, multi-modal face processing dataset originally released by Wakeman and Henson (ds000117). Eighteen participants viewed famous, unfamiliar, and scrambled faces and made a symmetry judgment with a key press. The events have been augmented and reorganized, annotated with Hierarchical Event Descriptors (HED), and the EEG repackaged in BioSemi Data Format.",
+  "methods_description": "Eighteen participants completed two sessions three months apart, one with fMRI and one with simultaneous MEG and EEG. In each session they judged the relative spatial symmetry of famous, unfamiliar, and scrambled face photographs, and each face was presented twice, either immediately or after a delay of 5-15 presentations. The EEG was extracted from the MEG/EEG fif files, fiducials were added, channels renamed, events extracted and corrected for a 34 ms latency shift, button presses added, and HED annotations applied. The recordings were then converted to BDF with biosigio.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,15 +25,6 @@
       "term": "MEG"
     },
     {
-      "term": "face processing"
-    },
-    {
-      "term": "Hierarchical Event Descriptors"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
@@ -42,6 +33,17 @@
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "Hierarchical Event Descriptors"
+    },
+    {
+      "term": "Facial Recognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066499"
     }
   ],
   "related_identifiers": [
