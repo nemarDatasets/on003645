@@ -1,0 +1,76 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Daniel G. Wakeman
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Richard N Henson
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Dung Truong (curation)
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCurator
+        order: 3
+      - name: Kay Robbins (curation)
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCurator
+        order: 4
+      - name: Scott Makeig (curation)
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCurator
+        order: 5
+      - name: Arno Delorme (curation)
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCurator
+        order: 6
+      - name: Seyed Yahya Shirazi (curation)
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0000-0001-5557-259X
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: DataCurator
+        order: 7
+    creators:
+      - name: Daniel G. Wakeman
+        nameType: Personal
+      - name: Richard N Henson
+        nameType: Personal
+      - name: Dung Truong (curation)
+        nameType: Personal
+      - name: Kay Robbins (curation)
+        nameType: Personal
+      - name: Scott Makeig (curation)
+        nameType: Personal
+      - name: Arno Delorme (curation)
+        nameType: Personal
+      - name: Seyed Yahya Shirazi (curation)
+        nameType: Personal
+        nameIdentifiers: *ref_0
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
